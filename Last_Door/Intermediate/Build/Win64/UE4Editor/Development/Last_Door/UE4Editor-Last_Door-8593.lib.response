@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Last_Door-8593.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\Last_DoorEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_Door.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorCharacter.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorGameMode.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorHUD.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorProjectile.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_Door.init.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorCharacter.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorGameMode.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorHUD.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\Last_DoorProjectile.gen.cpp.obj"
+"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\PCLaunch.rc.res"
+/OUT:"C:\Users\user\Documents\Unreal Projects\Last_Door\Intermediate\Build\Win64\UE4Editor\Development\Last_Door\UE4Editor-Last_Door-8593.lib"

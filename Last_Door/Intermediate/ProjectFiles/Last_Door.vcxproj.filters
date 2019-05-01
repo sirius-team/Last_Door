@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Last_Door.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F8813600-F8AC-4E70-89A0-13C4F7A4A033}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Last_Door.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Last_DoorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{662E903A-0667-49A1-810B-A037C5BAFBAC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Last_Door">
+      <UniqueIdentifier>{F3307914-FD34-4805-998F-CA8F3C2C1E0F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Last_Door\Last_Door.Build.cs">
+      <Filter>Source\Last_Door</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Last_Door\Last_Door.cpp">
+      <Filter>Source\Last_Door</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Door\Last_Door.h">
+      <Filter>Source\Last_Door</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Door\Last_DoorCharacter.cpp">
+      <Filter>Source\Last_Door</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Door\Last_DoorCharacter.h">
+      <Filter>Source\Last_Door</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Door\Last_DoorGameMode.cpp">
+      <Filter>Source\Last_Door</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Door\Last_DoorGameMode.h">
+      <Filter>Source\Last_Door</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Door\Last_DoorHUD.cpp">
+      <Filter>Source\Last_Door</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Door\Last_DoorHUD.h">
+      <Filter>Source\Last_Door</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Last_Door\Last_DoorProjectile.cpp">
+      <Filter>Source\Last_Door</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Last_Door\Last_DoorProjectile.h">
+      <Filter>Source\Last_Door</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
