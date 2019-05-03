@@ -1,7 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-#include "Last_Door.h"
-#include "Modules/ModuleManager.h"
-
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Last_Door, "Last_Door" );
- 
+version https://git-lfs.github.com/spec/v1
+oid sha256:45e467b300674d7b1e3db4a86c98e20cc9649d6734437979565aee956ef79489
+size 209

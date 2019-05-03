@@ -1,19 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/GameModeBase.h"
-#include "Last_DoorGameMode.generated.h"
-
-UCLASS(minimalapi)
-class ALast_DoorGameMode : public AGameModeBase
-{
-	GENERATED_BODY()
-
-public:
-	ALast_DoorGameMode();
-};
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:931018a93fe94386ba0613db4cd1d764b59e60d1d26a99b0b92d0adf82df0cb6
+size 327

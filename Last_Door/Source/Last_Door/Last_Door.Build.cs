@@ -1,13 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-using UnrealBuildTool;
-
-public class Last_Door : ModuleRules
-{
-	public Last_Door(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fc258e357b872c0a5468995f035999be6f374b2bc13929219b9f83a0c519ea9
+size 384

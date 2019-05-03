@@ -1,34 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "Last_DoorProjectile.generated.h"
-
-UCLASS(config=Game)
-class ALast_DoorProjectile : public AActor
-{
-	GENERATED_BODY()
-
-	/** Sphere collision component */
-	UPROPERTY(VisibleDefaultsOnly, Category=Projectile)
-	class USphereComponent* CollisionComp;
-
-	/** Projectile movement component */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
-	class UProjectileMovementComponent* ProjectileMovement;
-
-public:
-	ALast_DoorProjectile();
-
-	/** called when projectile hits something */
-	UFUNCTION()
-	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
-
-	/** Returns CollisionComp subobject **/
-	FORCEINLINE class USphereComponent* GetCollisionComp() const { return CollisionComp; }
-	/** Returns ProjectileMovement subobject **/
-	FORCEINLINE class UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c2c157629ca22e2f1b1cbbb94c3e066c81cef0fb214169ff03ed7af64963ff8
+size 1151

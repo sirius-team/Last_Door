@@ -1,13 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-using UnrealBuildTool;
-using System.Collections.Generic;
-
-public class Last_DoorEditorTarget : TargetRules
-{
-	public Last_DoorEditorTarget(TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Editor;
-		ExtraModuleNames.Add("Last_Door");
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e8ac02c4e0d7011546551f2b33cc0c3467fa9549b5fbe9c306e4c6bd5b2d6f6
+size 321

@@ -1,25 +1,3 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
-
-#pragma once 
-
-#include "CoreMinimal.h"
-#include "GameFramework/HUD.h"
-#include "Last_DoorHUD.generated.h"
-
-UCLASS()
-class ALast_DoorHUD : public AHUD
-{
-	GENERATED_BODY()
-
-public:
-	ALast_DoorHUD();
-
-	/** Primary draw call for the HUD */
-	virtual void DrawHUD() override;
-
-private:
-	/** Crosshair asset pointer */
-	class UTexture2D* CrosshairTex;
-
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b974523b6584241d801fcc4882881c7f4aebd6bb571383ea73b24b20ebed81c
+size 438
